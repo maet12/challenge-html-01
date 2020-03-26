@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+}
+
+.grid-container {
+  display: grid;
+}
+
+.link {
+  text-decoration: none;
+}
+
+@font-face {
+  @font-face {
+    font-family: "OSWALD";
+    src: url(assets/fonts/Oswald/Oswald-Regular.ttf) format("opentype");
+  }
+}
+
+.link-tag {
+  font-family: OSWALD;
+}

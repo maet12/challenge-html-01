@@ -1,0 +1,19 @@
+#footer{
+    background-color: rgb(26, 26, 26);
+}
+
+.grid-footer{
+    grid-template-columns: auto auto auto;
+}
+
+.grid-tags{
+    grid-template-columns: auto auto auto auto;
+}
+
+.link-tag{
+    color: #fff;
+    font-family: OSWALD;
+    &:hover{
+        color: #ff555b !important;
+    }
+}
