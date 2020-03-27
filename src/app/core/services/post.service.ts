@@ -13,23 +13,39 @@ export class PostService {
   private posts: Post[] = [
     {
       id: 1, title: 'Using banner stands to increase trade show traffic', tag: 'TECHNOLOGY',
-      description: this.description, image: './src/assets/imgs/dose-media-344938.png'
+      description: this.description, image: '/assets/imgs/dose-media-344938.png'
     },
     {
       id: 2, title: 'Search engine optimization and advertising', tag: 'TECHNOLOGY',
-      description: this.description, image: './src/assets/imgs/aidan-hancock-455440.png'
+      description: this.description, image: '/assets/imgs/aidan-hancock-455440.png'
     },
     {
       id: 3, title: 'Writing a good headline for your advertisement', tag: 'FINANCE',
-      description: this.description, image: './src/assets/imgs/crew-22235.png'
+      description: this.description, image: '/assets/imgs/crew-22235.png'
     },
     {
       id: 4, title: '6 powerful tips to creating testimonial that sell your products fast', tag: 'TECHNOLOGY',
-      description: this.description, image: './src/assets/imgs/annie-spratt-213059.png'
+      description: this.description, image: '/assets/imgs/annie-spratt-213059.png'
     },
     {
       id: 5, title: '15 tips to increase your adwords profits', tag: 'ENTERTAINMENT',
-      description: this.description, image: './src/assets/imgs/jeff-sheldon-264920.png'
+      description: this.description, image: '/assets/imgs/jeff-sheldon-264920.png'
+    },
+    {
+      id: 6, title: 'Using banner stands to increase trade show traffic', tag: 'TECHNOLOGY',
+      description: this.description, image: '/assets/imgs/dose-media-344938.png'
+    },
+    {
+      id: 7, title: 'Search engine optimization and advertising', tag: 'TECHNOLOGY',
+      description: this.description, image: '/assets/imgs/aidan-hancock-455440.png'
+    },
+    {
+      id: 8, title: 'Writing a good headline for your advertisement', tag: 'FINANCE',
+      description: this.description, image: '/assets/imgs/crew-22235.png'
+    },
+    {
+      id: 9, title: '6 powerful tips to creating testimonial that sell your products fast', tag: 'TECHNOLOGY',
+      description: this.description, image: '/assets/imgs/annie-spratt-213059.png'
     }
   ];
 
