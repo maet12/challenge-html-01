@@ -1,3 +1,5 @@
-<section id="list-posts">
-    <app-post *ngFor="let post of posts" [post]="post"></app-post>
+<section id="list-posts" class="container">
+    <div class="grid-container grid-posts">
+        <app-post *ngFor="let post of posts" [post]="post"></app-post>
+    </div>
 </section>

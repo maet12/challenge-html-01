@@ -1,7 +1,9 @@
 <article>
-    <div>
-        <img [src]="post.image" alt="">
-        <p>{{post.tag}}</p>
+    <div class="image-container">
+        <img class="image-post" [src]="post.image" alt="">
+        <div class="tag-image">
+            <p >{{post.tag}}</p>
+        </div>
     </div>
     <h3>{{post.title | titlecase }}</h3>
     <p>{{post.description}}</p>
